@@ -26,9 +26,7 @@ function addNew(){
 }
 
 
-function addNewFunc(){
-    //let myClone = document.querySelector('.values').cloneNode(true);
-    let myClone = document.getElementById('main');
-    let neww = myClone.children[myClone.children.length -1].cloneNode(true);//copy last item
-    document.querySelector('.values').parentElement.appendChild(neww);//paste last item
+function handleCopy(that){//this:<button onclick="handleCopy(this)">Copy</button> => that
+    let newClone = that.parentElement.cloneNode(true);//copy last item
+    document.querySelector('.values').parentElement.appendChild(newClone);//paste last item
 }
