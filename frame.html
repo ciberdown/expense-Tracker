@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>expense tracker</title>
+    <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+    <div class="header"></div>
+    <div class="main" id="main">
+        <div class="title">
+            <div class="expense_date">Expense date</div>
+            <div class="merchant_name">Merchant name</div>
+            <div class="amount">Amount</div>
+            <div class="classification">Classification</div>
+        </div>
+        <div class="values">
+            <div class="expense_date_val">Sat Nov 05 2022 21:28:41 GMT+0330 (Iran Standard Time)</div>
+            <div class="merchant_name_val">Fourth Cofee</div>
+            <div class="amount_val">11.79 $</div>
+            <div class="classification_val">Business</div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Merchant name:</p>
+        <input type="text" id="Mname_input">
+        <p>Amount:</p>
+        <input type="number" id="amount_input" value="0">
+        <p>Classification:</p>
+        <input type="text" id="calssification_input"><br />
+        <button type="button" onclick="addNew()">Add</button>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

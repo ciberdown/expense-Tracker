@@ -1,0 +1,60 @@
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main .title{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+.main .title *{
+    height: 20px;
+    border: 1px solid black ;
+    background-color: rgb(142, 142, 142);
+    text-align: center;
+    font-size: 0.9em;
+    font-weight: bold;
+    border-radius: 3px;
+}
+.main .values{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+.main .values *{
+    height: 20px;
+    border: 1px solid black ;
+    background-color: rgb(232, 232, 232);
+    text-align: center;
+    font-size: 0.8em;
+}
+.main .values .expense_date_val{
+    font-size: 0.5em;
+    overflow: scroll;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top:10px;
+}
+.footer p{
+    margin: 1px;
+    width: 200px;
+    font-size: 0.8em;
+    border-radius: 5px;
+}
+.footer input{
+    margin: 0;
+    width: 200px;
+    font-size: 0.9em;
+    border-radius: 5px;
+    border: 1px black solid;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+}
+.footer button{
+    font-weight: bold;
+    width: 200px;
+    margin: 0;
+    border-radius: 5px;
+    border: 2px black solid;
+    background-color: rgb(188, 188, 188);
+    cursor: pointer;
+}
