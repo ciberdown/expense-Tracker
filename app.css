@@ -3,7 +3,7 @@ body{
 }
 .main .title{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 3fr 4fr 2fr 4fr;
 }
 .main .title *{
     height: 20px;
@@ -16,7 +16,16 @@ body{
 }
 .main .values{
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 3fr 4fr 2fr 3fr 1fr;
+}
+.main .values button{
+    margin: 0;
+    height: 21px;
+    cursor: pointer;
+    background-color: rgb(174, 174, 174);
+}
+.main .values button:hover{
+    background-color: aliceblue;
 }
 .main .values *{
     height: 20px;
@@ -57,4 +66,7 @@ body{
     border: 2px black solid;
     background-color: rgb(188, 188, 188);
     cursor: pointer;
+}
+.footer button:hover{
+    background-color: aliceblue;
 }
